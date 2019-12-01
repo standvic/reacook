@@ -1,0 +1,8 @@
+export default {
+    NUTRITION_APP_ID: 'a9c23c4d',
+    NUTRITION_APP_KEY: 'f3f52e29db6c73da2f3a79b16f8904d3',
+    FOOD_APP_ID: '85d335b9',
+    FOOD_APP_KEY: '4fb3e18fb3e10ac4fcd43d054e929b6e',
+    RECIPE_APP_ID: 'ccf39dae',
+    RECIPE_APP_KEY: '677e76190a057c1bdb78e3690187bc4c'
+}

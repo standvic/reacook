@@ -1,5 +1,6 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+//const HtmlWebpackPlugin = require("html-webpack-plugin");
 const devMode = process.env.NODE_ENV !== "production";
 module.exports = {
   entry: "./src/index.js",
@@ -19,7 +20,10 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: "[name].css",
       chunkFilename: "[id].css"
-    })
+    })/*,
+    new HtmlWebpackPlugin({
+      title: 'Cooking with react...'
+    })*/
   ],
   module: {
     rules: [
