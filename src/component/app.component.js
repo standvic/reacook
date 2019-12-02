@@ -22,6 +22,7 @@ class App extends Component {
     fetch(url)
       .then(res => res.json())
       .then(result => this.setState({ data: result }))
+      .catch(error => console.log(error));
   }
 
   render() {
