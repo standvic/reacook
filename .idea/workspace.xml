@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="091d09d0-fbd0-49ef-93fc-62cde1becff8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/http.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/headwrapper/header/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/headwrapper/header/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/headwrapper/headwrapper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/headwrapper/headwrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/rest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/app.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/app.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recipe/recipe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/app.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recipe/recipe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +29,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -34,7 +47,8 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/layout/headwrapper" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -44,6 +58,19 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/layout/headwrapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist/css" />
+      <recent name="$PROJECT_DIR$/dist/img" />
+      <recent name="$PROJECT_DIR$/dist" />
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/src/components/layout/headwrapper" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -74,6 +101,14 @@
       <workItem from="1568965309655" duration="1262000" />
       <workItem from="1575189678127" duration="15311000" />
     </task>
+    <task id="LOCAL-00001" summary="http class">
+      <created>1575297777004</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575297777005</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,5 +126,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="http class" />
+    <option name="LAST_COMMIT_MESSAGE" value="http class" />
   </component>
 </project>

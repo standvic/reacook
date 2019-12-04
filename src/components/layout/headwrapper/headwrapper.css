@@ -1,0 +1,8 @@
+.headwrapper {
+    width: 100%;
+    height: 300px;
+    background: url(/img/wrimg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import App from "./component/app.component";
+import Recipe from "./components/recipe/recipe";
+import Layout from "./components/layout/layout";
 
-ReactDOM.render(<App />, document.querySelector("#root"));
+ReactDOM.render(<Layout />, document.querySelector("#root"));

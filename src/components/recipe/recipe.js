@@ -1,15 +1,15 @@
 import React, { Component } from "react";
-import s from "./app.component.css";
-import CREDENTIALS from "../config.js";
+import s from "./recipe.css";
+import Rest from "../../core/rest.js"
 
-class App extends Component {
+class Recipe extends Component {
   constructor() {
     super()
     this.state = { data: null };
   }
 
   componentDidMount() {
-    var url = new URL("https://api.edamam.com/search"),
+    /*var url = new URL("https://api.edamam.com/search"),
         params = { q: 'chicken',
                    app_id: CREDENTIALS.RECIPE_APP_ID,
                    app_key: CREDENTIALS.RECIPE_APP_KEY,
@@ -22,7 +22,19 @@ class App extends Component {
     fetch(url)
       .then(res => res.json())
       .then(result => this.setState({ data: result }))
-      .catch(error => console.log(error));
+      .catch(error => console.log(error));*/
+
+    var params = { q: 'chicken',
+      from: '0',
+      to: '3',
+      calories: '591-722',
+      health: 'alcohol-free' }
+
+      Rest.searchRecipes(params)
+        .then(res => res.json())
+        .then(result => this.setState({ data: result }))
+        .catch(error => console.log(error))
+
   }
 
   render() {
@@ -38,4 +50,5 @@ class App extends Component {
     )
   }
 }
-export default App;
+
+export default Recipe;
