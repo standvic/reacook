@@ -1,13 +1,14 @@
 import React, { Component } from "react"
-import style from "./header.css"
+import styles from "./header.css"
+import Recipe from "../../../recipe/recipe"
 
 class Header extends Component {
 
   render() {
     return (
-      <div className={style}>
-        Header panel
-      </div>
+      <header className={styles.header}>
+        {/*<Recipe />*/}
+      </header>
     )
   }
 }

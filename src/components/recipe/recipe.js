@@ -9,21 +9,6 @@ class Recipe extends Component {
   }
 
   componentDidMount() {
-    /*var url = new URL("https://api.edamam.com/search"),
-        params = { q: 'chicken',
-                   app_id: CREDENTIALS.RECIPE_APP_ID,
-                   app_key: CREDENTIALS.RECIPE_APP_KEY,
-                   from: '0',
-                   to: '3',
-                   calories: '591-722',
-                   health: 'alcohol-free' };
-
-    Object.keys(params).forEach(key => url.searchParams.append(key, params[key]));
-    fetch(url)
-      .then(res => res.json())
-      .then(result => this.setState({ data: result }))
-      .catch(error => console.log(error));*/
-
     var params = { q: 'chicken',
       from: '0',
       to: '3',
@@ -34,7 +19,6 @@ class Recipe extends Component {
         .then(res => res.json())
         .then(result => this.setState({ data: result }))
         .catch(error => console.log(error))
-
   }
 
   render() {
