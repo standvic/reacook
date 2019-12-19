@@ -1,8 +1,13 @@
-export default {
-    NUTRITION_APP_ID: 'a9c23c4d',
-    NUTRITION_APP_KEY: 'f3f52e29db6c73da2f3a79b16f8904d3',
-    FOOD_APP_ID: '85d335b9',
-    FOOD_APP_KEY: '4fb3e18fb3e10ac4fcd43d054e929b6e',
-    RECIPE_APP_ID: 'ccf39dae',
-    RECIPE_APP_KEY: '677e76190a057c1bdb78e3690187bc4c'
-}
+export const dietType = ['balanced', 'high-fiber', 'high-protein', 'low-carb', 'low-fat', 'low-sodium'];
+export const healthType = ['alcohol-free', 'celery-free', 'crustacean-free', 'dairy-free', 'egg-free', 'fish-free',
+                       'fodmap-free','gluten-free', 'keto-friendly', 'kidney-friendly', 'kosher', 'low-potassium',
+                       'lupine-free', 'mustard-free', 'low-fat-abs', 'No-oil-added', 'low-sugar', 'paleo',
+                       'peanut-free', 'pecatarian', 'pork-free', 'meat-free', 'sesame-free', 'shellfish-free',
+                       'soy-free', 'sugar-conscious', 'tree-nut-free', 'vegan', 'vegetarian', 'wheat-free' ];
+export const mealType = ['Breakfast', 'Lunch', 'Dinner', 'Snack'];
+
+export const dishType =	['Bread', 'Cereals', 'Condiments and sauces', 'Drinks', 'Desserts', 'Main course', 'Pancake',
+                         'Preps', 'Preserve', 'Salad', 'Sandwiches', 'Side dish', 'Soup', 'Starter', 'Sweets'];
+export const cuisineType =	['American', 'Asian', 'British', 'Caribbean', 'Central Europe', 'Chinese', 'Eastern Europe',
+                             'French', 'Indian', 'Italian', 'Japanese', 'Kosher', 'Mediterranean', 'Mexican',
+                             'Middle Eastern', 'Nordic', 'South American', 'South East Asian'];

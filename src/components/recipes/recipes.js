@@ -2,18 +2,18 @@ import React, { Component } from "react";
 import s from "./recipe.css";
 import Rest from "../../core/rest.js"
 
-class Recipe extends Component {
-  constructor() {
-    super()
+class Recipes extends Component {
+  constructor(props) {
+    super(props)
     this.state = { data: null };
   }
 
   componentDidMount() {
-    var params = { q: 'chicken',
-      from: '0',
-      to: '3',
+    var params = { q: 'Pancake'
+      /*from: '0',
+      to: '10',
       calories: '591-722',
-      health: 'alcohol-free' }
+      health: 'alcohol-free'*/ }
 
       Rest.searchRecipes(params)
         .then(res => res.json())
@@ -35,4 +35,4 @@ class Recipe extends Component {
   }
 }
 
-export default Recipe;
+export default Recipes;

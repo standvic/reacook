@@ -1,5 +1,50 @@
 .header {
     color: white;
-    height: 4em;
     background: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding: 0.5%;
+}
+
+.container {
+    display: inline-block;
+}
+
+.hamburger {
+    width: 2em;
+    height: 2em;
+    background: url(/img/hamb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.search_line {
+    display: inline-block;
+    margin-left: 1%;
+}
+
+div.search_line input {
+    border: none;
+    font-size: xx-large;
+    color: white;
+    background-color: #1d1616;
+}
+
+.button {
+    display: inline-block;
+    margin-left: 1%;
+}
+
+.button .find {
+    padding: 10%;
+    font-size: 150%;
+    border: none;
+    border-radius: 3px;
+    background-color: #D3CD74;
+}
+
+.powered_logo_holder {
+    display: inline-block;
+    margin: 0 auto;
+    float: right;
 }
