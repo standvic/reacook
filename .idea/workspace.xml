@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="091d09d0-fbd0-49ef-93fc-62cde1becff8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/actions/action-types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/prescription/prescription.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/prescription/prescription.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/rootReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/content/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/content/content.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/headwrapper/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/headwrapper/header/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/headwrapper/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/headwrapper/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/recipe/recipe.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recipes/recipe.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/recipe/recipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recipes/recipes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/headwrapper/headwrapper.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/headwrapper/headwrapper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/headwrapper/headwrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/headwrapper/headwrapper.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,6 +93,7 @@
       <workItem from="1575544450913" duration="6927000" />
       <workItem from="1576062614148" duration="8428000" />
       <workItem from="1576223919089" duration="43580000" />
+      <workItem from="1577013072730" duration="1311000" />
     </task>
     <task id="LOCAL-00001" summary="http class">
       <created>1575297777004</created>

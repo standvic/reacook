@@ -17,7 +17,7 @@ function Header() {
         <div className={styles.hamburger}></div>
       </div>
       <div className={styles.search_line}>
-        <input type="text" placeholder="Find something to cook..."/>
+        <input type="text" placeholder="Something to cook..."/>
       </div>
       <div className={styles.button}>
         <button className={styles.find}>FIND</button>
