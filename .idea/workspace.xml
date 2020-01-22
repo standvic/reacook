@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="091d09d0-fbd0-49ef-93fc-62cde1becff8" name="Default Changelist" comment="">
+    <list default="true" id="2488d865-bf96-460b-93d3-6d01169b6f3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dist/img/cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/hamb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/wrimg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/wrimg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/wrimg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/wrimg4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/wrimg5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/wrimg6.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/headwrapper/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/headwrapper/header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/headwrapper/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/headwrapper/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/headwrapper/headwrapper.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/headwrapper/headwrapper.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/headwrapper/headwrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/headwrapper/headwrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../work/session" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -79,7 +85,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="091d09d0-fbd0-49ef-93fc-62cde1becff8" name="Default Changelist" comment="" />
+      <changelist id="2488d865-bf96-460b-93d3-6d01169b6f3b" name="Default Changelist" comment="" />
       <created>1567760927688</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -92,8 +98,9 @@
       <workItem from="1575189678127" duration="15311000" />
       <workItem from="1575544450913" duration="6927000" />
       <workItem from="1576062614148" duration="8428000" />
-      <workItem from="1576223919089" duration="43580000" />
-      <workItem from="1577013072730" duration="1311000" />
+      <workItem from="1576223919089" duration="43641000" />
+      <workItem from="1579075627612" duration="779000" />
+      <workItem from="1579706130054" duration="621000" />
     </task>
     <task id="LOCAL-00001" summary="http class">
       <created>1575297777004</created>
@@ -116,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575558954680</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="header panel">
+      <created>1576737077474</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576737077474</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +153,7 @@
     <MESSAGE value="http class" />
     <MESSAGE value="layout begin" />
     <MESSAGE value="layout end" />
-    <option name="LAST_COMMIT_MESSAGE" value="layout end" />
+    <MESSAGE value="header panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="header panel" />
   </component>
 </project>
