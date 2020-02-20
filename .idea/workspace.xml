@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2488d865-bf96-460b-93d3-6d01169b6f3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/img/cross.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/hamb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/wrimg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/wrimg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/wrimg3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/wrimg4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/wrimg5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/wrimg6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/reacook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reacook.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +91,8 @@
       <workItem from="1576062614148" duration="8428000" />
       <workItem from="1576223919089" duration="43641000" />
       <workItem from="1579075627612" duration="779000" />
-      <workItem from="1579706130054" duration="621000" />
+      <workItem from="1579706130054" duration="1248000" />
+      <workItem from="1580915065564" duration="788000" />
     </task>
     <task id="LOCAL-00001" summary="http class">
       <created>1575297777004</created>
@@ -130,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576737077474</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add images">
+      <created>1579707730196</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579707730196</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +153,7 @@
     <MESSAGE value="layout begin" />
     <MESSAGE value="layout end" />
     <MESSAGE value="header panel" />
-    <option name="LAST_COMMIT_MESSAGE" value="header panel" />
+    <MESSAGE value="add images" />
+    <option name="LAST_COMMIT_MESSAGE" value="add images" />
   </component>
 </project>
